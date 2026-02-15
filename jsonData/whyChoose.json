@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon_description": "fa-solid fa-truck",
+    "title": "Fast Delivery",
+    "description": "Get your orders delivered to your doorstep quickly and efficiently."
+  },
+  {
+    "id": 2,
+    "icon_description": "fa-solid fa-headset",
+    "title": "24/7 Support",
+    "description": "Our support team is available around the clock to assist you."
+  },
+  {
+    "id": 3,
+    "icon_description": "fa-regular fa-credit-card",
+    "title": "Secure Payment",
+    "description": "Experience safe and secure transactions with our encrypted payment systems."
+  },
+  {
+    "id": 4,
+    "icon_description": "fa-solid fa-right-left",
+    "title": "Easy Returns",
+    "description": "Not satisfied? Return your products easily within 30 days."
+  }
+]

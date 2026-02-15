@@ -54,7 +54,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <i class="fa-solid fa-cart-shopping text-2xl cursor-pointer"></i>
+                    <i class="fa-solid fa-cart-shopping text-2xl cursor-pointer mx-3"></i>
 
 
                     <div class="dropdown">
@@ -77,8 +77,8 @@
         </nav>
 
         <section class="hero">
-            <div class="relative w-full h-[500px] md:h-[600px] overflow-hidden">
 
+            <div class="relative w-full h-[500px] md:h-[600px] overflow-hidden">
                 <img class="w-full h-full object-cover" src="./assets/banner-image.png" alt="">
 
                 <div class="absolute inset-0 
@@ -91,22 +91,22 @@
             px-10 
             text-white">
 
-                 <div class="container mx-auto p-3">
-                       <h1 class="font-bold text-3xl md:text-5xl">
-                        Best Collection For You
-                    </h1>
+                    <div class="container mx-auto p-3">
+                        <h1 class="font-bold text-3xl md:text-5xl">
+                            Best Collection For You
+                        </h1>
 
-                    <p class="mt-4 max-w-lg">
-                        Discover the latest trends in fashion, electronics, and more.
-                        Shop with confidence and style at SwiftCart.
-                    </p>
+                        <p class="mt-4 max-w-lg">
+                            Discover the latest trends in fashion, electronics, and more.
+                            Shop with confidence and style at SwiftCart.
+                        </p>
 
-                    <span class="">
-                        <button class="mt-6 bg-[#4F39F6] px-6 py-2 rounded font-bold cursor-pointer">
-                            Shop Now
-                        </button>
-                    </span>
-                 </div>
+                        <span class="">
+                            <button class="mt-6 bg-[#4F39F6] px-6 py-2 rounded font-bold cursor-pointer">
+                                Shop Now
+                            </button>
+                        </span>
+                    </div>
                 </div>
 
             </div>
@@ -115,6 +115,42 @@
 
     </header>
 
+    <main class="container mx-auto p-3">
+
+        <!-- why choose us section -->
+
+        <section class="mt-20">
+            <div class="text-center space-y-2">
+                <h1 class="font-bold text-3xl">Why Choose Us</h1>
+                <p class="text-gray-400">we provide the best shopping experience with top-notch services</p>
+            </div>
+
+
+            <div class="cart-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-15">
+
+
+                <div class="space-y-3 bg-slate-100 px-4 py-6 rounded-xl 
+            cursor-pointer
+            transition-all duration-300 ease-in-out
+            hover:bg-gradient-to-r hover:from-green-500 hover:to-emerald-600
+            hover:text-white hover:shadow-xl hover:-translate-y-2">
+                    <i class="${choose.icon_description} text-4xl"></i>
+                    <h1 class="font-bold text-lg">${choose.title}</h1>
+
+                    <p class="text-gray-400">${choose.description}</p>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
